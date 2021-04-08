@@ -1,0 +1,12 @@
+<!-- <p>mycanvas works!</p> -->
+<!-- <canvas #myCanvas id="myCanvas" width="500" height="500" style="background-color: aqua;"></canvas> -->
+<!-- <script type="text/javascript">alert('132132')</script> -->
+<h1>Examples</h1>
+<div>line -p [50, 50] [100, 100] -c rgb(255, 0, 0)</div><br>
+<div>rectangle -p [50, 50] [100, 100] -c rgb(0, 255, 0) -b rgba(255, 0, 0, 0.3)</div><br>
+<div>triangle -p [50, 50] [50, 100] [100, 100] -c rgb(0, 0, 255) -b rgba(255, 0, 0, 0.3)</div><br>
+<div>circle -p [75, 75] -r 25 -c rgba(255, 0, 0, 0.8) -b rgba(0, 255, 0, 0.3)</div><br>
+<div>ellipse -p [75, 75] -r1 50 -r2 25 -c rgb(0, 255, 0) -b rgba(255, 0, 0, 0.3) </div><br>
+<input #customerInput type="text" >
+<button (click)="animate(customerInput.value)">draw</button>
+<button (click)="clear()">X</button>
